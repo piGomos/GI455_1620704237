@@ -20,25 +20,193 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2afe7d38-f653-4852-9a57-349e6e3556d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek1/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek1/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek1/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek1/Seacrhbar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek1/Seacrhbar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/websocket-sharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/websocket-sharp.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Gameobject.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Gameobject/Message.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Gameobject/Message.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Scenes/Connect.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Scenes/Connect.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Scenes/ProgramChat.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Scenes/ProgramChat.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Script.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Script/WebsocketConnection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProgramChat/Script/WebsocketConnection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJs/.idea/.idea.NodeJs.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJs/.idea/.idea.NodeJs.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJs/.idea/.idea.NodeJs.dir/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJs/.idea/.idea.NodeJs.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJs/.idea/.idea.NodeJs.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJs/.idea/.idea.NodeJs.dir/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJs/cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJs/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/Mono.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.ComponentModel.Composition.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Drawing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.EnterpriseServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Globalization.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.IO.Compression.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Runtime.Serialization.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Runtime.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.ServiceModel.Internals.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Transactions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/System.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/Unity.Timeline.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.AIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.ARModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.AccessibilityModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.AnimationModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.AssetBundleModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.AudioModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.ClothModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.ClusterInputModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.CoreModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.CrashReportingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.DSPGraphModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.DirectorModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.GameCenterModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.GridModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.HotReloadModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.IMGUIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.ImageConversionModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.InputLegacyModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.InputModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.LocalizationModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.Physics2DModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.PhysicsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.ProfilerModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.StreamingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.SubstanceModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.SubsystemsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.TLSModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.TerrainModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.TextCoreModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.TextRenderingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.TilemapModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UIElementsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UNETModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UmbraModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UnityConnectModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.VFXModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.VRModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.VehiclesModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.VideoModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.WindModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.XRModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/UnityEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/mscorlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/netstandard.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Managed/websocket-sharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Resources/unity default resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/Resources/unity_builtin_extra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/app.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/boot.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/globalgamemanagers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/globalgamemanagers.assets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/level0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/level1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/sharedassets0.assets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/sharedassets0.assets.resS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/sharedassets1.assets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/GI455_Project_Data/sharedassets1.assets.resS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/2.0/machine.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/2.0/settings.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/2.0/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.0/machine.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.0/settings.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.0/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.5/machine.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.5/settings.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/4.5/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/browscap.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/MonoBleedingEdge/etc/mono/mconfig/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/UnityCrashHandler32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buildProject/Programchat_week2/UnityPlayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Seacrhbar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Seacrhbar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/94/94d643f3616cd6fd20a3567ed48cd779" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/f5f49e-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/f5f49e-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/5bef9c-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/5bef9c-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,24 +223,39 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Seacrhbar.cs" />
+        <option value="$PROJECT_DIR$/Assets/ProgramChat/Script/WebsacketConnection.cs" />
+        <option value="$PROJECT_DIR$/../NodeJs/server.js" />
+        <option value="$PROJECT_DIR$/Assets/ProgramChat/Script/WebsocketConnection.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1nhiJqEgAbmV9YaOUpoDmyX0JES" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="ReSpellerSettingsId" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../buildProject/week2\GI455_Project.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="E:\GI455\GI455_1620704237\buildProject\week2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -101,6 +284,11 @@
       <option name="presentableId" value="Default" />
       <updated>1611848658280</updated>
       <workItem from="1611848667726" duration="5165000" />
+      <workItem from="1611988758279" duration="77000" />
+      <workItem from="1611988844745" duration="946000" />
+      <workItem from="1612420326950" duration="30112000" />
+      <workItem from="1612502135790" duration="286000" />
+      <workItem from="1612502469142" duration="2375000" />
     </task>
     <servers />
   </component>
@@ -119,8 +307,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">

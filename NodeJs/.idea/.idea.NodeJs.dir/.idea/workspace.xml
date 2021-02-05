@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cab2acce-e848-49ac-9ebf-57291a927687" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/AssignmentWeek1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/AssignmentWeek1/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/AssignmentWeek1/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/AssignmentWeek1/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/AssignmentWeek1/Seacrhbar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/AssignmentWeek1/Seacrhbar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/Plugins/websocket-sharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/Plugins/websocket-sharp.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/ProgramChat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/ProgramChat/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/ProgramChat/Scenes/ProgramChat.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/ProgramChat/Scenes/ProgramChat.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/ProgramChat/Script.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/ProgramChat/Script/WebsocketConnection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GI455_Project/Assets/ProgramChat/Script/WebsocketConnection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.NodeJs.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.NodeJs.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.NodeJs.dir/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.NodeJs.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.NodeJs.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.NodeJs.dir/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/.idea/.idea.GI455_Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/.idea/.idea.GI455_Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/.idea/.idea.GI455_Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/.idea/.idea.GI455_Project/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/.idea/.idea.GI455_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/.idea/.idea.GI455_Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Assets/Seacrhbar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Assets/Seacrhbar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GI455_Project/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/../GI455_Project/Library/expandedItems" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nmAdVDeibGp7jMiCN5POqMLiVU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab2acce-e848-49ac-9ebf-57291a927687" name="Default Changelist" comment="" />
+      <created>1611984985723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611984985723</updated>
+      <workItem from="1611985005816" duration="4064000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
