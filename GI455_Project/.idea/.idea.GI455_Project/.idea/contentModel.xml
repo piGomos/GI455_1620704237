@@ -9,6 +9,18 @@
         <e p="AssignmentWeek1" t="Include">
           <e p="Seacrhbar.cs" t="Include" />
         </e>
+        <e p="AssignmentWeek4" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="WebsocketConnection.cs" t="Include" />
+          </e>
+        </e>
+        <e p="LobbyRoomExample" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Example.cs" t="Include" />
+            <e p="LobbyManager.cs" t="Include" />
+            <e p="Room.cs" t="Include" />
+          </e>
+        </e>
         <e p="ProgramChat" t="Include">
           <e p="Script" t="Include">
             <e p="WebsocketConnection.cs" t="Include" />

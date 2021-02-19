@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/ProgramChat/Scenes/Connect.unity
     guid: 4a739a86ebe797b4da6722549ca534b4
-  - enabled: 1
+  - enabled: 0
     path: Assets/ProgramChat/Scenes/ProgramChat.unity
     guid: 03891d57a8ef012439ee7e42ac0cd9ca
+  - enabled: 1
+    path: Assets/AssignmentWeek4/Scenes/Programchat.unity
+    guid: 1d7b09e41be377a4287a4244f88ab173
   m_configObjects: {}
