@@ -1,8 +1,27 @@
+const sqlite = require('sqlite3').verbose();
 var websocket = require('ws');
 
 var callbackInitServer = ()=>{
     console.log("Server is running.");
 }
+
+let db = new sqlite.Database('./db/chatDB.db', sqlite.OPEN_CREATE | sqlite.OPEN_READWRITE, (err)=>{
+
+    if(err) throw err;
+
+    console.log('Connected to database.');
+
+    db.all("SELECT * FROM UserData", (err,row)=>{
+
+        if (err) {
+            console.log(err);
+        }
+        else{
+            console.table(row);
+        }
+    })
+
+})
 
 var websocketServer = new websocket.Server({port:40000}, callbackInitServer);
 
@@ -10,8 +29,8 @@ var websocketServer = new websocket.Server({port:40000}, callbackInitServer);
 var wsList = [];
 var roomList = [];
 /*
-    roomName: "xxxxx"
-    wsList
+    roomName: "xxxxx" 
+    wsList: []
 
  */
 websocketServer.on("connection", (ws, rq)=>{
@@ -30,12 +49,12 @@ websocketServer.on("connection", (ws, rq)=>{
             //CreateRoom
             if (toJson.eventName == "CreateRoom")
             {
-                console.log("client request CreateRoom ["+toJson.data+"]");
+                console.log("client request CreateRoom ["+toJson.roomName+"]");
                 
                 var isFoundRoom = false;
                 for (var i = 0; i < roomList.length; i++)
                 {
-                    if (roomList[i].roomName == toJson.data)
+                    if (roomList[i].roomName == toJson.roomName)
                     {
                         isFoundRoom = true;
                         break;
@@ -48,6 +67,8 @@ websocketServer.on("connection", (ws, rq)=>{
                     
                     var resultData = {
                         eventName: toJson.eventName,
+                        roomName: toJson.roomName,
+                        name: toJson.name,
                         data: "fail"
                     }
                     ws.send(JSON.stringify(resultData));
@@ -57,7 +78,7 @@ websocketServer.on("connection", (ws, rq)=>{
                     
                     //New เป็น object
                     var newRoom = {
-                        roomName: toJson.data,
+                        roomName: toJson.roomName,
                         wsList: []
                     }
                     
@@ -66,6 +87,8 @@ websocketServer.on("connection", (ws, rq)=>{
                     
                     var resultData = {
                         eventName: toJson.eventName,
+                        roomName: toJson.roomName,
+                        name: toJson.name,
                         data: "success"
                     }
                     
@@ -75,14 +98,16 @@ websocketServer.on("connection", (ws, rq)=>{
             }
             else if (toJson.eventName == "JoinRoom")//JoinRoom
             {
-                console.log("client request Joinroom ["+toJson.data+"]");
+                console.log("client request Joinroom ["+toJson.roomName+"]");
 
                 var isFoundRoom = false;
+                var number = -1;
                 for (var i = 0; i < roomList.length; i++)
                 {
-                    if (roomList[i].roomName == toJson.data)
+                    if (roomList[i].roomName == toJson.roomName)
                     {
                         isFoundRoom = true;
+                        number = i;
                         break;
                     }
                 }
@@ -93,16 +118,21 @@ websocketServer.on("connection", (ws, rq)=>{
 
                     var resultData = {
                         eventName: toJson.eventName,
+                        roomName: toJson.roomName,
+                        name: toJson.name,
                         data: "success"
                     }
                     
                     ws.send(JSON.stringify(resultData));
+                    roomList[i].wsList.push(ws);
                 }
                 else{
                     console.log("Join room : room is not found");
                     
                     var resultData = {
                         eventName: toJson.eventName,
+                        roomName: toJson.roomName,
+                        name: toJson.name,
                         data: "fail"
                     }
 
@@ -119,7 +149,7 @@ websocketServer.on("connection", (ws, rq)=>{
                     {
                         if(roomList[i].wsList[j] == ws)
                         {
-                            roomList[i].wsList[j].splice(j, 1);
+                            roomList[i].wsList.splice(j, 1);
                             
                             if (roomList[i].wsList.length <= 0)
                             {
@@ -131,8 +161,86 @@ websocketServer.on("connection", (ws, rq)=>{
                 }
                 
             }
-            //console.log("send from clinent : " + data);
-            //Boardcast(data);
+            else if (toJson.eventName == "SendMessage")//sandMessage
+            {
+                Boardcast(ws, toJson)
+            }
+            else if (toJson.eventName == "Register")//Register
+            {
+                console.log("client request Register [ username: "+toJson.userName+" password: "+toJson.password+" name: "+toJson.name+"]")
+
+                db.all("INSERT INTO UserData (Username, Password, Name) VALUES ('"+toJson.userName+"', '"+toJson.password+"', '"+toJson.name+"')", (err,row)=>{
+
+                    if (err) {
+                        
+                        console.log("Register fail: Username exists");
+                    
+                        var resultData = {
+                            eventName: toJson.eventName,
+                            roomName: toJson.roomName,
+                            name: toJson.name,
+                            data: "fail"
+                        }
+
+                        ws.send(JSON.stringify(resultData));
+                    }
+                    else
+                    {
+                        console.log("Register success");
+                    
+                        var resultData = {
+                            eventName: toJson.eventName,
+                            roomName: toJson.roomName,
+                            name: toJson.name,
+                            data: "success"
+                        }
+
+                        ws.send(JSON.stringify(resultData));
+                    }
+                })
+            }
+            else if (toJson.eventName == "Login")//Register
+            {
+            
+                console.log("client request Login [ username: "+toJson.userName+" password: "+toJson.password+"]")
+
+                db.all("SELECT * FROM UserData WHERE Username='"+toJson.userName+"' AND Password='"+toJson.password+"'", (err,row)=>{
+
+                    if (err) {
+                        
+                        console.log(err);
+                    }
+                    else if (row.length > 0) 
+                    {
+                        //console.log(row);
+                        //console.log(row[0].Name);
+
+                        console.log("Register success");
+                    
+                        var resultData = {
+                            eventName: toJson.eventName,
+                            roomName: toJson.roomName,
+                            name: row[0].Name,
+                            data: "success"
+                        }
+
+                        ws.send(JSON.stringify(resultData));
+                    }
+                    else
+                    {
+                        console.log("Register fail: Username exists");
+                    
+                        var resultData = {
+                            eventName: toJson.eventName,
+                            roomName: toJson.roomName,
+                            name: toJson.name,
+                            data: "fail"
+                        }
+
+                        ws.send(JSON.stringify(resultData));
+                    }
+                })
+            }
         })
         
     }
@@ -152,7 +260,7 @@ websocketServer.on("connection", (ws, rq)=>{
             {
                 if(roomList[i].wsList[j] == ws)
                 {
-                    roomList[i].wsList[j].splice(j, 1);
+                    roomList[i].wsList.splice(j, 1);
 
                     if (roomList[i].wsList.length <= 0)
                     {
@@ -174,10 +282,30 @@ function ArrayRemove(arr, value)
     })
 }
 
- function Boardcast(data) 
+ function Boardcast(ws, message) 
  {
-     for (var i = 0; i < wsList.length; i++)
+    var selectRoomIndex = -1; 
+    
+    for (var i = 0; i < roomList.length; i++)
      {
-         wsList[i].send(data);
+        for(var j = 0; j < roomList[i].wsList.length; j++){
+            
+            if (ws == roomList[i].wsList[j]) {
+                
+                selectRoomIndex = i;
+                break;
+            }
+        }
      }
+
+    for(var i = 0; i < roomList[selectRoomIndex].wsList.length; i++){
+
+        var resultData = {
+            eventName: "SendMessage",
+            roomName: message.roomName,
+            name: message.name,
+            data: message.data
+        }
+        roomList[selectRoomIndex].wsList[i].send(JSON.stringify(resultData));
+    }
  }

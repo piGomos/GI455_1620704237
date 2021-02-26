@@ -20,42 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2afe7d38-f653-4852-9a57-349e6e3556d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek4.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek4/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek4/Scenes/Programchat.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek4/Scenes/Programchat.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek4/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek4/Scripts/WebSocketConnection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssignmentWeek4/Scripts/WebSocketConnection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scenes/LobbyRoom.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scenes/LobbyRoom.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scripts/Example.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scripts/Example.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scripts/LobbyManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scripts/LobbyManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scripts/Room.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/LobbyRoomExample/Scripts/Room.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleDB/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleDB/sqlExample.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GI455_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProgramChat/Gameobject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProgramChat/Gameobject/Message.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProgramChat/Gameobject/Message.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/f5f49e-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/f5f49e-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/5bef9c-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/5bef9c-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeJs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeJs/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +116,7 @@
       <workItem from="1613569798273" duration="5092000" />
       <workItem from="1613632042806" duration="34524000" />
       <workItem from="1613699094702" duration="9324000" />
+      <workItem from="1614237186778" duration="1254000" />
     </task>
     <servers />
   </component>

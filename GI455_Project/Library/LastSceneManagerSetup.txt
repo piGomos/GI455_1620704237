@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AssignmentWeek4/Scenes/Programchat.unity
+- path: Assets/Programchat/Scenes/Programchat.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
